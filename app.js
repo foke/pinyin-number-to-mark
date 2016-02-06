@@ -53,8 +53,8 @@
   };
 
   var input = document.getElementById('pinyinInput');
-  var description = document.getElementById('pinyinDescription');
 
+  document.addEventListener('click', setFocus);
   input.addEventListener('keyup', convertNumberToMark);
 
   function convertNumberToMark () {
@@ -63,12 +63,12 @@
     if (conversion) {
       input.value = conversion;
       input.select();
-      description.classList.add('hide');
-    } else {
-      description.classList.remove('hide');
     }
   }
 
+  function setFocus () {
+    input.focus();
+  }
 
-  input.focus();
+  setFocus();
 }());

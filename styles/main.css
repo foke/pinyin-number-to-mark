@@ -38,7 +38,6 @@ input {
     font-size: 1.8rem;
     text-shadow: 0px 2px 3px #FFF;
     opacity: 1;
-    transition: opacity .4s;
   }
 
 /* helpers */
@@ -48,10 +47,6 @@ input {
   display: block;
 }
 
-.italic {
-  font-style: italic;
-}
-
-.hide {
-  opacity: 0;
+.strong {
+  font-weight: bold;
 }
