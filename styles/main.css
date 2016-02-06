@@ -1,0 +1,52 @@
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.pinyin-app {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background: #F3EDE9;;
+}
+
+  .pinyin-app__input {
+    background: transparent;
+    text-align: center;
+    font-size: 15rem;
+    color: #9A8A7F;
+  }
+
+  .pinyin-app__options {
+    text-align: center;
+    padding: 1rem;
+  }
+
+    .pinyin-app__options button {
+      background: rgba(0,0,0,0.1);
+      border: none;
+      border-radius: .25rem;
+      padding: 1rem;
+    }
+
+
+/* helpers */
+.full {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

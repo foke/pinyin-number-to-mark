@@ -1,0 +1,11 @@
+{
+  "name": "Pinyin - number to mark",
+  "description": "Converts pinyin with number notation to mark equivalent",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
