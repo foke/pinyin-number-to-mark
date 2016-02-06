@@ -53,6 +53,7 @@
   };
 
   var input = document.getElementById('pinyinInput');
+  var description = document.getElementById('pinyinDescription');
 
   input.addEventListener('keyup', convertNumberToMark);
 
@@ -62,6 +63,9 @@
     if (conversion) {
       input.value = conversion;
       input.select();
+      description.classList.add('hide');
+    } else {
+      description.classList.remove('hide');
     }
   }
 
