@@ -6,12 +6,12 @@ chrome.app.runtime.onLaunched.addListener(function() {
   var height = 300;
 
   chrome.app.window.create('index.html', {
-    id: "helloWorldID",
+    id: "pinyinAppID",
     outerBounds: {
       width: width,
       height: height,
-      left: Math.round((screenWidth-width)/2),
-      top: Math.round((screenHeight-height)/2)
+      left: Math.round(screenWidth-width),
+      top: 0
     }
   });
 });
