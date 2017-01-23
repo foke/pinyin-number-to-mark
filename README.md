@@ -1,5 +1,6 @@
 # pinyin-number-to-mark
-A Chrome app to convert pinyin with numeric notation to mark equivalent
+A Chrome app to convert pinyin with numeric notation to the mark equivalent.  
+`a3` becomes `ǎ`, `i1` becomes `ī`, `e2` becomes `é` and so on.
 
 ## Installation ##
 1. Go to chrome://extensions
